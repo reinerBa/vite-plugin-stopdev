@@ -1,0 +1,40 @@
+{
+  "name": "vite-plugin-stopdev",
+  "version": "1.0.0",
+  "description": "Vite plugin to stop the dev server",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc -w -p .",
+    "test": "vite --mode=test",
+    "build": "del-cli dist && tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reinerBa/vite-plugin-stopdev.git"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "stop"
+  ],
+  "author": {
+    "name": "Reiner Bamberger",
+    "url": "https://github.com/reinerBa"
+  },
+  "type": "module",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reinerBa/vite-plugin-stopdev/issues"
+  },
+  "homepage": "https://github.com/reinerBa/vite-plugin-stopdev#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "del-cli": "^5.1.0",
+    "typescript": "^5.3.3",
+    "vite": "^2.0.0"
+  },
+  "files": [
+    "./dist",
+    "src/index.ts"
+  ]
+}
