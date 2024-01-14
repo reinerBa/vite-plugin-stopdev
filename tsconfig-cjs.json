@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "useDefineForClassFields": true,
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "preserve",
+    "declaration": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    "skipLibCheck": true,
+    "noEmit": false,
+    "module": "commonjs",
+    "outDir": "dist/cjs",
+    "target": "es2015"
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/index.ts", "src/main.js"],
+}
