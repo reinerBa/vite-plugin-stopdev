@@ -11,7 +11,8 @@
 
 Stops your (local or CI)-Vite development server after a given time or a given time of inactivity. 
 With a callback to use before the dev server is stopped and another to use before the node process is terminated. 
-Usefull to run tests on development server or to prevent your dev server from running forever on your local maschine.
+Usefull to run tests on development server with to let the development server run forever. 
+Or to prevent your dev server from running for days on your local maschine.
 
 ## Install
 
