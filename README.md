@@ -3,6 +3,9 @@
 [![npm][npm-img]][npm-url]
 [![NPM License](https://img.shields.io/npm/l/all-contributors.svg?style=flat)](https://github.com/reinerBa/vite-plugin-stopdev/blob/primary/LICENSE)
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)  
+<a href="https://github.com/reinerBa/vite-plugin-stopdev/actions">
+  <img src="https://github.com/reinerBa/vite-plugin-stopdev/actions/workflows/compileAndRuntime.yml/badge.svg" alt="test workflow">
+</a>
 [![GitHub last commit](https://img.shields.io/github/last-commit/reinerBa/vite-plugin-stopdev.svg?style=flat)]()
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 
