@@ -34,6 +34,8 @@ Config plugin in vite.config.ts with a fix time to die or an object with options
 ```ts
 import { defineConfig } from 'vite'
 import stopdev from 'vite-plugin-stopdev'
+// in commonjs use require ->
+// const stopdev = require('vite-plugin-stopdev').default
 
 export default defineConfig({
   plugins: [
