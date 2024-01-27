@@ -1,3 +1,3 @@
-import {renameSync} from 'fs'
+import { renameSync } from 'fs'
 
 renameSync('./dist/cjs/index.js', './dist/index.cjs')
